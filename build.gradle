@@ -1,0 +1,17 @@
+allprojects {}
+
+subprojects {
+ task buildAll {}  
+}
+
+task buildAll() {  
+    dependsOn subprojects.buildAll    
+    doFirst{
+      println("initilizing build process...")
+    }      
+    doLast {    
+      println("build process completed successfully...")
+    }
+}
+
+defaultTasks 'buildAll'
