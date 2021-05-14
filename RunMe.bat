@@ -1,0 +1,1 @@
+mvn -Dplatform=windows -Dbrowser=chrome -Dheadless=true -Durl=http://192.168.1.241/egic-qa/Login.aspx -Dsuite=ghiclaimtest.xml clean compile test

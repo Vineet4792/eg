@@ -1,0 +1,15 @@
+com\egic\features\LoginFeatures.class
+com\egic\pageobjects\ClaimsPage.class
+com\egic\features\GHIClaimsFeatures.class
+com\egic\webutils\FirefoxCapabilities.class
+com\egic\generic\PageLib.class
+com\egic\generic\ExcelLib.class
+com\egic\steps\LoginSteps.class
+com\egic\generic\ExcelLib$1.class
+com\egic\pageobjects\LoginPage.class
+com\egic\webutils\ChromeCapabilities.class
+com\egic\webutils\BrowserFactory.class
+com\egic\generic\GenericLib.class
+com\egic\steps\ClaimsSteps.class
+com\egic\generic\Driver.class
+com\egic\webutils\EgicListeners.class
